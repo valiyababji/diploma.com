@@ -1,0 +1,84 @@
+.background{
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/689/1001/110/spiderman-ps4-spiderman-superheroes-games-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+  
+    background-size: cover;
+}
+.logo img{
+       width: 100px;
+  
+}
+.logo{
+    width: 100%;
+    height: 0%;
+    margin: auto;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+     
+}
+.logo button{
+    color: #2b5f92;
+    padding: 10px 25px;
+    background: transparent;
+    border: 2px solid #e91313;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+}
+.logo button:hover{
+    color: #ffffff;
+    border-color:#2b5f92 ;
+    transition: 1s;
+    
+}
+.sel{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    
+}
+.ptag P{
+    font-style: italic;
+    max-width: 100%;
+    max-height: auto;
+    font-size:70px;
+    color:rgba(174, 19, 19, 0.866);
+    text-shadow: -15px 10px 10px rgb(224, 222, 222) ;
+
+}
+.ptag{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.sel a{
+    text-decoration:  none;
+    text-align: center;
+    border: 2px solid red;
+    padding: 20px 20px ;
+    margin: 10px;
+    border-radius: 20px 20px;
+    color: #000000;
+
+}
+.sel a:hover{
+    color: #2b5f92;
+    transition: 1s;
+    border-color: #ffffff;
+    border: 5px solid wheat;
+}
+@media screen and (max-width:700px)
+{
+    .background{
+        background-image: url("https://w0.peakpx.com/wallpaper/422/544/HD-wallpaper-spiderman-marvel-thumbnail.jpg");
+    }
+    .ptag P{  
+        font-size:30px;
+    }
+    .sel a{
+        color: #ffffff;
+    }
+}
